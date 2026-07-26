@@ -1,24 +1,26 @@
-# README
+# Blog
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A static blog. Posts are Markdown files with YAML front matter; `bin/build`
+renders them to plain HTML in `public/`. No database, no server process.
 
-Things you may want to cover:
+## Layout
 
-* Ruby version
+- `content/posts/` — published posts (tracked). Filename: `YYYY-MM-DD-slug.md`.
+- `content/drafts/` — work in progress (gitignored — this repo is public).
+- `content/ideas/backlog.md` — raw idea capture (gitignored).
+- `style/STYLE.md` — voice/tone guide used by the writing skills.
+- `lib/post.rb`, `templates/*.erb`, `bin/build` — the generator itself.
 
-* System dependencies
+## Writing pipeline
 
-* Configuration
+Claude Code skills under `.claude/skills/` cover the pipeline end to end:
+`idea` -> `outline` -> `draft` -> `review` -> `publish` -> `promote`.
 
-* Database creation
+## Build
 
-* Database initialization
+```
+bundle install
+bin/build
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Output goes to `public/` (gitignored, regenerated every build).

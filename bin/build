@@ -1,0 +1,45 @@
+#!/usr/bin/env ruby
+# Builds the static site: content/posts/*.md -> public/*.html
+
+require "erb"
+require "redcarpet"
+require "fileutils"
+require_relative "../lib/post"
+
+ROOT         = File.expand_path("..", __dir__)
+POSTS_DIR    = File.join(ROOT, "content", "posts")
+TEMPLATES_DIR = File.join(ROOT, "templates")
+ASSETS_DIR   = File.join(ROOT, "assets")
+OUTPUT_DIR   = File.join(ROOT, "public")
+
+MARKDOWN = Redcarpet::Markdown.new(
+  Redcarpet::Render::HTML.new(filter_html: true, hard_wrap: true),
+  fenced_code_blocks: true,
+  autolink: true,
+  tables: true,
+  strikethrough: true
+)
+
+def render(template_name, locals)
+  erb = ERB.new(File.read(File.join(TEMPLATES_DIR, template_name)))
+  erb.result_with_hash(locals)
+end
+
+FileUtils.rm_rf(OUTPUT_DIR)
+FileUtils.mkdir_p(OUTPUT_DIR)
+FileUtils.cp_r(Dir.glob(File.join(ASSETS_DIR, "*")), OUTPUT_DIR)
+
+posts = Post.all(POSTS_DIR)
+
+posts.each do |post|
+  html_body = MARKDOWN.render(post.body_markdown)
+  content = render("post.html.erb", post: post, html_body: html_body)
+  page = render("layout.html.erb", title: post.title, content: content)
+  File.write(File.join(OUTPUT_DIR, "#{post.slug}.html"), page)
+end
+
+index_content = render("index.html.erb", posts: posts)
+index_page = render("layout.html.erb", title: "Blog", content: index_content)
+File.write(File.join(OUTPUT_DIR, "index.html"), index_page)
+
+puts "Built #{posts.size} post(s) into #{OUTPUT_DIR}"
