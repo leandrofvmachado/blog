@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 # Builds the static site: content/posts/*.md -> public/*.html
 
+require "bundler/setup"
 require "erb"
 require "redcarpet"
 require "fileutils"
