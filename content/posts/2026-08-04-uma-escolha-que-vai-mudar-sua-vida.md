@@ -2,6 +2,8 @@
 title: "Uma escolha que vai mudar sua vida"
 date: 2026-08-04
 slug: uma-escolha-que-vai-mudar-sua-vida
+tags: [produtividade, virtudes, legado]
+summary: "Três camadas de motivação — incentivos, virtudes e legado — e por que só a última sustenta uma vida produtiva fora do trabalho."
 ---
 
 Por que certas pessoas buscam ser produtivas na sua vida fora do trabalho?
@@ -40,7 +42,7 @@ Quando o sentido está fora de si, ele ganha muito mais força. E tudo acompanha
 
 Talvez esse conhecimento não seja tão comum para a maioria, mas tem pessoas contrariando sua vontade o tempo inteiro.
 
-Diferente da primeira camada, que as pessoas contrariam sua vontade para alcançar uma recompensa como dinheiro, poder ou sexo, nessa, o desejo é mais ser **dono das próprias ações**. E como consequênci, servir mais aos outros.
+Diferente da primeira camada, que as pessoas contrariam sua vontade para alcançar uma recompensa como dinheiro, poder ou sexo, nessa, o desejo é mais ser **dono das próprias ações**. E como consequência, servir mais aos outros.
 
 Negar-se a si mesmo.
 
