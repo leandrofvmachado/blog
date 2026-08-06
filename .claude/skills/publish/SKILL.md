@@ -1,14 +1,17 @@
 ---
 name: publish
-description: Publish a finished draft from content/drafts/ to content/posts/ and commit it locally. Use when the user wants to publish, ship, or finalize a draft — e.g. "publish this draft", "ship the X post", "/publish <file>". Final stage of the idea -> outline -> draft -> review -> publish pipeline. Never pushes to the remote; the commit stays local until the user pushes themselves.
+description: Publish a finished draft from content/drafts/ to content/posts/, commit it, and push to the remote. Use when the user wants to publish, ship, or finalize a draft — e.g. "publish this draft", "ship the X post", "/publish <file>". Final stage of the idea -> outline -> draft -> review -> publish pipeline. Pushing makes the post live, so all validation happens before the commit.
 ---
 
 # Publish
 
 Move a finished draft from `content/drafts/` (gitignored, untracked) into `content/posts/`
-(tracked, public) and create a local git commit. This is the last stage of the pipeline,
-after "review". Getting this wrong means unfinished or unintended writing entering the
-public git history, so validate before moving anything.
+(tracked, public), commit it, and push to the remote. This is the last stage of the
+pipeline, after "review".
+
+The push is what makes the post publicly live, and it can't be quietly undone — so every
+validation step below happens **before** the commit, not after. Once you reach step 5,
+the content has already been checked.
 
 ## 1. Identify the draft
 
@@ -67,7 +70,7 @@ instead and skip the manual `mv`/`git add`/`git rm` dance.)
 Double-check the destination filename matches the `YYYY-MM-DD-slug.md` pattern used by
 everything else in `content/posts/` before moving on.
 
-## 5. Commit locally
+## 5. Commit
 
 Stage the new post file (already done above) and commit:
 
@@ -77,21 +80,37 @@ git commit -m "Publish: <title>"
 
 Use the real, human-readable `title` from the front matter in the message, not the slug.
 
-## 6. Report back — and the safety rule
+## 6. Push
+
+Push the commit so the post goes live:
+
+```
+git push
+```
+
+Before pushing, check `git status --short` and `git log origin/<branch>..HEAD`. Push only
+the publish commit. If there are **other unpushed commits** or unrelated staged changes
+riding along, stop and tell the user what else would go out — let them decide before you
+push.
+
+If the branch has no upstream, use `git push -u origin <branch>`.
+
+**Only ever a plain `git push`.** Never `git push --force`, `--force-with-lease`, or
+anything else that rewrites remote history — if a push is rejected because the remote has
+moved ahead, report the rejection and stop. Fixing a diverged branch is the user's call,
+not something to resolve mid-publish.
+
+## 7. Report back
 
 Tell the user:
 
 - The file's new path under `content/posts/`.
-- That a commit was created **locally only**.
-- That this skill never runs `git push` — pushing is their call, and they need to push
-  themselves (e.g. `git push`) whenever they're ready for the post to go live on the
-  remote.
+- That the commit was pushed, and to which branch — the post is now live.
+- Anything filled in on their behalf (`date`, `slug`, `tags`, `summary`) so they can
+  correct it while it's fresh.
 
-**Never run `git push`, `git push --force`, or anything that sends this commit to a
-remote, under any circumstance, even if the user seems to expect it as part of
-"publishing."** If the user wants it pushed too, tell them to run the push themselves or
-ask again explicitly in a separate step — this skill's responsibility ends at the local
-commit.
+If the push failed, say so plainly and state that the commit exists locally but the post
+is **not** live yet.
 
 ## Out of scope
 
