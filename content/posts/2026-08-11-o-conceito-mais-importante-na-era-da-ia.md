@@ -2,6 +2,8 @@
 title: "O conceito mais importante na era da IA"
 date: 2026-08-11
 slug: o-conceito-mais-importante-na-era-da-ia
+tags: [ia, dados, negócios, estratégia]
+summary: "A IA barateou o custo de copiar, então diferenciação por nicho perdeu força e distribuição virou a arma do líder. A vantagem defensável que sobra é o data flywheel: dados e processos próprios que só a sua empresa tem para ensinar a IA a ficar cada vez melhor."
 ---
 
 Quais os efeitos da IA ter barateado o custo de código?
