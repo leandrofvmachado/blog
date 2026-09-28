@@ -64,6 +64,6 @@ Eu usei o Opus algumas vezes, mas o Sonnet foi tão eficiente quanto nesse proce
 
 ## Vídeo para ver enquanto os agentes rodam
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/xZz8szflVaw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe src="https://www.youtube.com/embed/xZz8szflVaw" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Achei esse vídeo interessantíssimo sobre masculinidade.
