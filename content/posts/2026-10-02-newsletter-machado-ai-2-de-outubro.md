@@ -88,7 +88,8 @@ A ferramenta é ótima em descobrir esse primeiro passo, essa menor coisa e pode
 
 ## Video
 
-https://youtu.be/GEkoGCFpY8c?si=RGxTfoDzVzyKb00p 
+<iframe src="https://www.youtube.com/embed/GEkoGCFpY8c" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 Foi desse vídeo que fiz a reflexão sobre o que escrevi acima. Também fala um pouco sobre o fato de que criar código para quem realmente gosta na era da IA tornou-se algo muito menos prazeroso, já que hoje mais resolvemos problemas de alto nível do que de fato codamos alguma coisa.
 
 O dev do futuro acho que não vai ter nada a ver com o dev de hoje em dia.
