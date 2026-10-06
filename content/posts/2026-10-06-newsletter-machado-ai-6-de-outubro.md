@@ -7,7 +7,7 @@ slug: newsletter-machado-ai-6-de-outubro
 
 Trabalho profundo sempre foi algo muito importante para mim. Desde que li o livro do [Cal Newport](https://www.amazon.com.br/Trabalho-Focado-Sucesso-Mundo-Distra%C3%ADdo/dp/8550802328/ref=asc_df_8550802328?mcid=3e53311dcc593f389c238309c4271d7f&tag=googleshopp00-20&linkCode=df0&hvadid=709857900444&hvpos=&hvnetw=g&hvrand=13741016319775901745&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9100505&hvtargid=pla-811538127770&psc=1&hvocijid=13741016319775901745-8550802328-&hvexpln=0&language=pt_BR), luto para conseguir os momentos de foco ao longo do dia, sem distrações internas e nem externas.
 
-Esse tipo de trabalho é o que "move as correntes". É o problema que você não ou não sabe como resolver que está travando mais o progresso. E ele só pode ser resolvido se nos debruçarmos sobre ele e nos esforçamos para primeiro esclarece-lo e depois soluciona-lo.
+Esse tipo de trabalho é o que "move as correntes". É o problema que você não consegue ou não sabe como resolver e que está travando o progresso. E ele só pode ser resolvido se nos debruçarmos sobre ele e nos esforçarmos para primeiro esclarecê-lo e depois solucioná-lo.
 
 Mas como **harmonizar deep work com agentes de IA**? Essa é a pergunta que eu pretendo responder nesse post. A resposta está mais em como nos organizamos e como encaramos e usamos os harness da IA.
 
@@ -27,15 +27,15 @@ Para trocar de contexto, temos 2 tarefas mentais:
 
 E essas trocas levam ao que os especialistas chamam de **resíduo de atenção**. Sabe quando alguém te interrompe no meio de algo importante e você quer que a pessoa fale rápido para você não perder o fio da meada? Essa é a sensação. Parte da atenção fica presa na primeira tarefa. A segunda tarefa só tem uma fração da nossa atenção, ou seja, desempenho cai.
 
-Nem sempre nós somos interrompidos. Nós nos interrompemos ativamente dentro de tarefas importantes. O custo disso é alto também. Uma pesquisa de Gloria Mark (UC Irvine) com trabalhadores no escritorio descobriu duas coisas:
+Nem sempre nós somos interrompidos. Nós nos interrompemos ativamente dentro de tarefas importantes. O custo disso é alto também. Uma pesquisa de Gloria Mark (UC Irvine) com trabalhadores no escritório descobriu duas coisas:
 
 1. **o retorno é lento**: segundo essa pesquisa, na média, demoramos 25 minutos para voltar. Quando li isso desconfiei, mas como tem muitas de 1, 2 min e as vezes sou interrompido, vou tomar um café e só volto 1h depois, aí fez sentido.
 2. **O tempo médio na mesma tela caiu muito**: de 2,5 minutos em 2007 para 47 segundos nas medições recentes. Sinceramente, isso não é novidade para mim. É só observar uma pessoa comum trabalhando.
 
-As consequencias disso são:
+As consequências disso são:
 1. **Aumento do estresse**
 2. **Diminuição da performance**
-3. **Autoengano**(multitask faz nos sentir produtivos)
+3. **Autoengano** (multitask faz nos sentir produtivos)
 
 ### A analogia dos blocos
 
@@ -47,7 +47,7 @@ Mas pensa na informação como um cubo com alguns átomos dentro.
 
 ![Dois cubos representando blocos de memória: um com poucos átomos soltos e outro com muitas ligações, simbolizando a diferença de profundidade da informação](/cubos-memoria-trabalho.png)
 
-Pode ser que esse cubo tenhas duas ligações lá dentro ou que tenha 10 mil. As duas cabem igualmente em um espaço de memória, mas a que tem 10 mil traz muito mais profundidade e capacidade de raciocinar.
+Pode ser que esse cubo tenha duas ligações lá dentro ou que tenha 10 mil. As duas cabem igualmente em um espaço de memória, mas a que tem 10 mil traz muito mais profundidade e capacidade de raciocinar.
 
 Essa é a diferença de um especialista lidando com um assunto que domina versus lidando com um assunto que não domina.
 
@@ -57,9 +57,9 @@ Eu olho para um tabuleiro e não vejo nada de mais, somente algumas ameaças mai
 
 Essa é a diferença da memória de trabalho para memória de longo prazo. A memória de longo prazo guarda esquemas de informação que comprimem muita informação em cada bloco, mas para assuntos novos, desconhecidos, no caso sem esquema, a memória de trabalho fica com pouca coisa.
 
-Trabalhar sem distrações é basicamente maximizar a sua memoria de trabalho.
+Trabalhar sem distrações é basicamente maximizar a sua memória de trabalho.
 
-### Maaaaaas, agentes de IA. Como integra-los com toda essa pesquisa?
+### Maaaaaas, agentes de IA. Como integrá-los com toda essa pesquisa?
 
 Ficar alternando entre agentes é contra o que sabemos sobre foco.
 
@@ -71,7 +71,7 @@ Daqui para frente vou dar algumas sugestões do que eu tento fazer para melhorar
 
 **Se você produz algum tipo de trabalho intelectual, você precisa focar ao menos 1x por mais de 1h. Isso é inegociável.**
 
-Desligar todas as distrações internas e externas e fazer aquele trabalho que move as correntes. Seja com agentes ou não, seja para esclarecer o problema ou resolve-lo. Ou momento de estudo, enfim, qualquer profissão intelectual tem isso. **Quem não faz isso, não progride na profissão. ou na empresa.
+Desligar todas as distrações internas e externas e fazer aquele trabalho que move as correntes. Seja com agentes ou não, seja para esclarecer o problema ou resolvê-lo. Ou um momento de estudo, enfim, qualquer profissão intelectual tem isso. **Quem não faz isso não progride na profissão ou na empresa.**
 
 Idealmente os períodos devem durar 1h30 e no máximo dois ou três por dia. Não minta para você, é fora do ser humano comum trabalhar mais que isso em tarefas pesadas cognitivamente.
 
@@ -85,7 +85,7 @@ Nessa hora soltar várias sessões do Claude Code ou Codex da vida é o ideal. A
 
 #### Agregador de agentes
 
-Ter várias janelas para mim é enlouquecedor. Eu ultimamente pedi para o Claude para fazer um agregador que me avisa em que ponto os agentes estão das suas tarefas e do que eles precisam, assim eu não precisa ficar lendo toda hora o que está sendo feito.
+Ter várias janelas para mim é enlouquecedor. Eu ultimamente pedi para o Claude para fazer um agregador que me avisa em que ponto os agentes estão das suas tarefas e do que eles precisam, assim eu não preciso ficar lendo toda hora o que está sendo feito.
 
 #### Interrupções
 
@@ -111,7 +111,7 @@ Mas não trate a interrupção como algo a ser 100% resolvido, pois é pior que 
 
 A IA é péssima em adivinhar o nível que você precisa para entender as coisas.
 
-Em alguns momentos parece afobada e responde 10 coisas quando voce pergunta uma. As vezes responde de uma forma muito técnica. Você pede para explicar e deixa tudo muito simples.
+Em alguns momentos parece afobada e responde 10 coisas quando você pergunta uma. Às vezes responde de uma forma muito técnica. Você pede para explicar e deixa tudo muito simples.
 
 É um desafio.
 
@@ -121,7 +121,7 @@ As coisas que mais tem me ajudado é pedir para responder só o que perguntei, s
 
 Toda rodada deveríamos ou construir uma skill ou melhorar uma. É como se fosse o dividendo que a IA te paga. Se as skills que usamos repetidamente estão sempre polidas, melhoradas, aperfeiçoadas, otimizadas a longo prazo inevitavelmente vamos colher frutos.
 
-Eu pretendo construir skills para compartilhas com vocês e ajuda-los nessa jornada.
+Eu pretendo construir skills para compartilhar com vocês e ajudá-los nessa jornada.
 
 ## Vídeo para assistir enquanto os agentes trabalham
 
@@ -129,4 +129,4 @@ Eu pretendo construir skills para compartilhas com vocês e ajuda-los nessa jorn
 
 A expansão das bets no Brasil não é só culpa da industrialização da exploração do vício e fraqueza das pessoas. Existe uma ligação com a falta de esperança que o caminho honesto vai dar à pessoa o retorno esperado. 
 
-Quando o povo perde a esperança que vai comer com dignidade, fazer uma compra no mercado sem que o dinheiro acabe, que poderá comprar uma casa, que poderá comprar um carro sem endividir todo seu patrimônio ele se volta para outros meios para tentar compensar. Por isso o nosso tempo atual é terreno frutuoso para bets, tigrinho, marketing digital e todo tipo de atividade que promete retornos absurdos.
+Quando o povo perde a esperança que vai comer com dignidade, fazer uma compra no mercado sem que o dinheiro acabe, que poderá comprar uma casa, que poderá comprar um carro sem endividar todo seu patrimônio ele se volta para outros meios para tentar compensar. Por isso o nosso tempo atual é terreno frutuoso para bets, tigrinho, marketing digital e todo tipo de atividade que promete retornos absurdos.
